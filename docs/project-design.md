@@ -358,3 +358,97 @@ Initial deployment strategy:
 
 Future improvements may include additional OCI services for storage, monitoring, and scalability.
 
+# 11. Non-Functional Requirements
+
+The following non-functional requirements define the quality attributes and engineering principles that guide the development of the AI Agent.
+
+## Performance
+
+The system should provide responses within an acceptable time for interactive usage.
+
+Considerations:
+
+- Optimize document retrieval through vector similarity search.
+- Limit the amount of context sent to the LLM.
+- Use efficient chunking strategies during document processing.
+- Avoid unnecessary processing during user queries.
+
+## Accuracy and Response Quality
+
+The agent should provide reliable answers based only on the information available in the knowledge base.
+
+Requirements:
+
+- Responses must be generated using retrieved document context.
+- The system should avoid generating unsupported information.
+- When the required information is not available, the agent should clearly state that no relevant information was found.
+- Responses should include references to the source documents whenever possible.
+
+## Security
+
+The application must protect sensitive information and credentials.
+
+Security practices:
+
+- API keys and credentials must not be stored directly in the source code.
+- Environment variables will be used for configuration.
+- Sensitive files will be excluded from version control.
+- Access to cloud resources must follow secure configuration practices.
+
+## Maintainability
+
+The project should be easy to understand, modify, and extend.
+
+Practices:
+
+- Organized project structure.
+- Clear separation between components.
+- Documentation of architecture and decisions.
+- Version control using Git with meaningful commits.
+- Modular implementation of the RAG pipeline.
+
+## Scalability
+
+The architecture should allow future growth without requiring a complete redesign.
+
+Possible future improvements:
+
+- Support for additional document formats.
+- Integration with larger document repositories.
+- Migration to managed vector databases.
+- Multiple knowledge domains.
+- More advanced agent workflows.
+
+## Availability
+
+The deployed application should be accessible through the cloud environment.
+
+The solution should consider:
+
+- Stable deployment configuration.
+- Proper dependency management.
+- Basic error handling.
+- Monitoring opportunities for future improvements.
+
+## Usability
+
+The interface should allow users without technical knowledge to interact with the agent.
+
+Requirements:
+
+- Simple conversational interface.
+- Clear indication that the user is interacting with an AI system.
+- Understandable responses.
+- Minimal configuration required from the user.
+
+## Reproducibility
+
+Another developer should be able to run and understand the project.
+
+This will be supported through:
+
+- README documentation.
+- Dependency management.
+- Environment configuration example.
+- Deployment instructions.
+- GitHub repository history.
