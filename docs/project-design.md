@@ -613,3 +613,103 @@ Expected result:
 
 A complete public GitHub project ready for submission and presentation.
 
+# 13. Future Improvements
+
+Although the current project focuses on creating a functional AI Agent with RAG capabilities, several improvements could be implemented in future versions to transform the solution into a more complete enterprise platform.
+
+## Multi-Agent Architecture
+
+Future versions could incorporate multiple specialized agents working together.
+
+Examples:
+
+- Human Resources Agent.
+- Financial Agent.
+- Technical Documentation Agent.
+- Legal Compliance Agent.
+
+A supervisor agent could determine which specialized agent should process each user request.
+
+## Support for Additional Document Sources
+
+The current solution focuses on local document ingestion, but future improvements could include integrations with:
+
+- Google Drive.
+- Microsoft SharePoint.
+- Internal company repositories.
+- Knowledge management platforms.
+- Enterprise databases.
+
+This would allow automatic synchronization of the knowledge base.
+
+## Advanced Access Control
+
+For enterprise environments, the system could implement role-based access control.
+
+Possible improvements:
+
+- Authentication with corporate accounts.
+- Permission-based document retrieval.
+- Different knowledge visibility levels according to user roles.
+
+## Automated Knowledge Base Updates
+
+A future version could include automatic document monitoring.
+
+Capabilities:
+
+- Detect new documents.
+- Detect document modifications.
+- Reprocess updated files.
+- Refresh embeddings automatically.
+
+This would keep the agent continuously updated.
+
+## Advanced Monitoring and Analytics
+
+The system could include observability features to evaluate performance.
+
+Possible metrics:
+
+- Number of user interactions.
+- Most requested topics.
+- Response latency.
+- Retrieval accuracy.
+- User feedback analysis.
+
+## Evaluation Framework
+
+Future versions could include automated evaluation of generated answers.
+
+Examples:
+
+- Retrieval quality measurement.
+- Response relevance scoring.
+- Hallucination detection.
+- Comparison between different prompts or models.
+
+## Improved Cloud Architecture
+
+The current deployment focuses on simplicity and functionality.
+
+A production-level architecture could include:
+
+- OCI Object Storage for document management.
+- OCI Vault for secret management.
+- Managed vector database solutions.
+- Container orchestration.
+- Automated CI/CD pipelines.
+- Monitoring and logging services.
+
+## Enhanced User Experience
+
+The interface could evolve with additional capabilities:
+
+- Conversation history.
+- User feedback collection.
+- File upload functionality.
+- Source visualization.
+- Integration with communication platforms such as Slack or Microsoft Teams.
+
+These improvements would transform the current prototype into a scalable enterprise AI knowledge assistant.
+
