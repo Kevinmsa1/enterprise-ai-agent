@@ -452,3 +452,164 @@ This will be supported through:
 - Environment configuration example.
 - Deployment instructions.
 - GitHub repository history.
+
+# 12. Development Roadmap
+
+The project will be developed through incremental phases, following an agile approach. Each phase represents a milestone that moves the solution from initial planning to a functional cloud-deployed AI Agent.
+
+## Phase 1 - Project Planning and Setup
+
+Objective:
+
+Establish the project foundation and development environment.
+
+Activities:
+
+- Create and configure the GitHub repository.
+- Define the project structure.
+- Create initial documentation.
+- Configure environment variables.
+- Prepare development tools.
+
+Expected result:
+
+A structured repository ready for implementation.
+
+---
+
+## Phase 2 - Knowledge Base Creation
+
+Objective:
+
+Prepare the documents that will serve as the agent's knowledge source.
+
+Activities:
+
+- Select the business context of the project.
+- Create or adapt documentation files.
+- Organize documents by category.
+- Validate document quality and relevance.
+
+Expected result:
+
+A curated knowledge base ready for processing.
+
+---
+
+## Phase 3 - Document Processing Pipeline
+
+Objective:
+
+Transform documents into usable information for the AI system.
+
+Activities:
+
+- Load documents from the knowledge base.
+- Extract text from supported formats.
+- Clean and normalize extracted content.
+- Split documents into meaningful chunks.
+- Generate document metadata.
+
+Expected result:
+
+Processed documents prepared for indexing.
+
+---
+
+## Phase 4 - RAG Implementation
+
+Objective:
+
+Build the retrieval-augmented generation pipeline.
+
+Activities:
+
+- Generate embeddings from document chunks.
+- Store vectors in a vector database.
+- Implement semantic search.
+- Connect retrieval results with the language model.
+- Create prompts focused on grounded responses.
+
+Expected result:
+
+A functional RAG system capable of answering questions based on documents.
+
+---
+
+## Phase 5 - AI Agent Development
+
+Objective:
+
+Create the intelligent agent responsible for user interaction.
+
+Activities:
+
+- Integrate LangChain components.
+- Structure agent workflow.
+- Implement response generation logic.
+- Add source references.
+- Handle unavailable information scenarios.
+
+Expected result:
+
+An AI Agent capable of answering natural language questions.
+
+---
+
+## Phase 6 - User Interface Development
+
+Objective:
+
+Provide a simple interface for interacting with the agent.
+
+Activities:
+
+- Create Streamlit application.
+- Connect interface with the agent backend.
+- Display responses clearly.
+- Show document references.
+
+Expected result:
+
+A usable conversational application.
+
+---
+
+## Phase 7 - Cloud Deployment
+
+Objective:
+
+Make the application available online.
+
+Activities:
+
+- Prepare deployment environment.
+- Configure OCI resources.
+- Deploy the application.
+- Validate public accessibility.
+- Capture execution evidence.
+
+Expected result:
+
+A working AI Agent deployed on Oracle Cloud Infrastructure.
+
+---
+
+## Phase 8 - Documentation and Final Delivery
+
+Objective:
+
+Prepare the project for evaluation and portfolio presentation.
+
+Activities:
+
+- Complete README documentation.
+- Add architecture diagrams.
+- Add screenshots or videos.
+- Review repository organization.
+- Verify deployment links.
+
+Expected result:
+
+A complete public GitHub project ready for submission and presentation.
+
