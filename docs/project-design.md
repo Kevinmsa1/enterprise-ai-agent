@@ -255,11 +255,12 @@ The project will be developed using a modern AI application stack focused on Ret
 
 ## Programming Language
 
-**Python**
+**Python 3.11+**
 
 Python will be used as the main programming language due to its strong ecosystem for Artificial Intelligence, Machine Learning, data processing, and integration with Large Language Models (LLMs).
 
 ## AI Frameworks
+- LangChain
 
 ### LangChain
 
@@ -276,6 +277,7 @@ LangChain will be used to build the RAG pipeline and manage the interaction betw
 LangGraph will be used to structure the agent workflow as a state-based graph, allowing better control over the reasoning flow and future expansion into more complex agent behaviors.
 
 ## Large Language Model (LLM)
+- Google Gemini API
 
 The project will integrate a Large Language Model capable of generating natural language responses based on retrieved information from the knowledge base.
 
@@ -304,6 +306,7 @@ Technologies:
 The processing pipeline will transform raw documents into clean text segments ready for indexing.
 
 ## Embeddings and Vector Database
+- Google Generative AI Embeddings
 
 The project will use embeddings to transform document fragments and user questions into numerical representations.
 
