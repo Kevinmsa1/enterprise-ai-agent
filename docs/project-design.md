@@ -716,3 +716,8 @@ The interface could evolve with additional capabilities:
 
 These improvements would transform the current prototype into a scalable enterprise AI knowledge assistant.
 
+- Preserve PDF page numbers in chunk metadata.
+- Improve retrieval by using contextual chunking.
+- Add reranking.
+- Hybrid search (BM25 + Vector Search).
+- Better source citations.
