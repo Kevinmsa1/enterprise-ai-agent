@@ -5,7 +5,6 @@ __pycache__/
 *.pyc
 
 vectorstore/
-data/vector_store/
 
 .streamlit/
 
