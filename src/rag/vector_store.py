@@ -16,8 +16,9 @@ if TYPE_CHECKING:
     from langchain_core.embeddings import Embeddings
 
 
-DEFAULT_CHUNKS_PATH = Path("data/processed/chunks.json")
-DEFAULT_VECTOR_STORE_PATH = Path("data/vector_store")
+REPO_ROOT = Path(__file__).resolve().parents[2]
+DEFAULT_CHUNKS_PATH = REPO_ROOT / "data/processed/chunks.json"
+DEFAULT_VECTOR_STORE_PATH = REPO_ROOT / "data/vector_store"
 DEFAULT_COLLECTION_NAME = "enterprise_ai_agent_docs"
 DEFAULT_INDEX_BATCH_SIZE = 100
 DEFAULT_BATCH_DELAY_SECONDS = 65.0
